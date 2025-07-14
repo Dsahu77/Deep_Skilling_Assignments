@@ -1,0 +1,68 @@
+# === Maven ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# === Spring Boot ===
+*.log
+*.jar
+*.war
+*.ear
+
+# === Sensitive Config (if any are used) ===
+application.properties
+application.yml
+.env
+.env.local
+*.secret
+*.key
+
+# === JWT Key Constants ===
+src/main/java/**/JwtConstants.java
+
+# === IDEs ===
+
+# Eclipse / STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VSCode
+.vscode/
+
+# === OS / Misc ===
+.DS_Store
+Thumbs.db
+
+# === Build directories inside source folders ===
+**/src/main/**/build/
+**/src/test/**/build/
+**/src/main/**/target/
+**/src/test/**/target/
+
+# === Logs ===
+*.log
+logs/
